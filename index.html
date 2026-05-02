@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktor Aghajanyan</title>
+    <meta name="description" content="Viktor Aghajanyan — AI Engineer at Nasdaq, inventor, chess player. Boston.">
+    <meta property="og:title" content="Viktor Aghajanyan">
+    <meta property="og:description" content="AI Engineer at Nasdaq. Inventor. Chess player. Boston.">
+    <meta property="og:type" content="profile">
+    <meta property="profile:first_name" content="Viktor">
+    <meta property="profile:last_name" content="Aghajanyan">
+    <link rel="canonical" href="https://viktoraghajanyan.com">
+
+    <!-- JSON-LD structured data for Google entity matching -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Viktor Aghajanyan",
+        "jobTitle": "Lead AI Engineer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Nasdaq",
+            "url": "https://www.nasdaq.com"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Johns Hopkins University"
+        },
+        "url": "https://viktoraghajanyan.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/viktor-aghajanyan/",
+            "https://www.chess.com/member/ViktorAghajanyan"
+        ],
+        "knowsAbout": ["Artificial Intelligence", "Natural Language Processing", "Financial Technology"],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Boston",
+            "addressRegion": "MA",
+            "addressCountry": "US"
+        }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #faf9f7;
+            color: #1a1a1a;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'EB Garamond', serif;
+            font-weight: 400;
+            font-size: 2.4rem;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.6rem;
+            line-height: 1.1;
+        }
+
+        .tagline {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 2.4rem;
+        }
+
+        .tagline a {
+            color: #555;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #ccc;
+            transition: text-decoration-color 0.2s;
+        }
+
+        .tagline a:hover {
+            text-decoration-color: #1a1a1a;
+        }
+
+        .links {
+            display: flex;
+            gap: 1.4rem;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            font-size: 0.85rem;
+            color: #888;
+            text-decoration: none;
+            letter-spacing: 0.03em;
+            transition: color 0.2s;
+            position: relative;
+        }
+
+        .links a::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: #1a1a1a;
+            transition: width 0.3s ease;
+        }
+
+        .links a:hover {
+            color: #1a1a1a;
+        }
+
+        .links a:hover::after {
+            width: 100%;
+        }
+
+        .sep {
+            color: #ddd;
+            user-select: none;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 1.9rem;
+            }
+            body {
+                align-items: flex-start;
+                padding-top: 4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Viktor Aghajanyan</h1>
+        <p class="tagline">
+            AI engineer at <a href="https://www.nasdaq.com" target="_blank" rel="noopener">Nasdaq</a>. 
+            Building intelligence systems for capital markets. 
+            Patent holder. Johns Hopkins alum. Boston.
+        </p>
+        <nav class="links">
+            <a href="https://www.linkedin.com/in/viktor-aghajanyan/" target="_blank" rel="noopener">LinkedIn</a>
+            <span class="sep">·</span>
+            <a href="https://www.chess.com/member/ViktorAghajanyan" target="_blank" rel="noopener">Chess.com</a>
+            <span class="sep">·</span>
+            <a href="mailto:your@email.com">Email</a>
+        </nav>
+    </main>
+</body>
+</html>
